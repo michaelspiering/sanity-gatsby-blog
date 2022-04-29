@@ -9,6 +9,8 @@ import author from "./documents/author";
 import category from "./documents/category";
 import post from "./documents/post";
 import siteSettings from "./documents/siteSettings";
+import event from "./documents/event";
+import venue from "./documents/venue";
 
 // Object types
 import bodyPortableText from "./objects/bodyPortableText";
@@ -21,7 +23,7 @@ import authorReference from "./objects/authorReference";
 export default createSchema({
   // We name our schema
   name: "blog",
-  // Then proceed to concatenate our our document type
+  // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     // The following are document types which will appear
@@ -30,6 +32,8 @@ export default createSchema({
     post,
     category,
     author,
+    event,
+    venue,
     mainImage,
     authorReference,
     bodyPortableText,

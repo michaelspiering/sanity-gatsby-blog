@@ -6,3 +6,7 @@
 
 -- 4/28/22 --
 * There are an overwhelming number of exceptions and build errors.
+
+-- 4/29/22 --
+* After starting over, I had to remove the post that was causing the exception to get the thing to build.
+*
