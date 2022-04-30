@@ -10,3 +10,4 @@
 -- 4/29/22 --
 * After starting over, I had to remove the post that was causing the exception to get the thing to build.
 * I broke the build.  You have to run npm install from the studio directory in order to update the package-lock.json file before pushing to main.
+* The graphql chapter didn't require any code changes. Deployed from the cli.
